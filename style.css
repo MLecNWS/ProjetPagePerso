@@ -11,11 +11,11 @@ header{
     height: 75pt;
 }
 .menu img{
-    width: 38%;
+    width: 36%;
     margin-left: 27%;
 }
 .imgb{
-    background-image: url('/Maxime_Le_Corre_Developpeur_Web_2.jpg');
+    background-image: url('/Maxime_Le_Corre_Développeur_Web_2.jpg');
     min-height: 550px; 
     min-width: 200%;
     margin-left: -50%;
@@ -45,7 +45,7 @@ main{
 }
 .fondnoir{
     background-color:#141414 ;
-    height: 1200pt;
+    height: 1700px;
 }
 .max img {
     width:60%;
@@ -77,10 +77,9 @@ main{
 .portfolio{
     background-color:#141414;
     height: 720pt;
-    margin-top:-1%;
     margin-left:0% ;
     width:100%;
-    padding-top:1%;
+    padding-top:13%;
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 299px;   
 }
@@ -146,6 +145,9 @@ main{
     padding: 0;
   }
 
+  h2{
+      padding-top: 18%;
+  }
 
 .info{
     display: flex;
@@ -215,19 +217,20 @@ footer h1{
     font-size: 0.8em;
     color: white;
 }
-@media (max-height:666px){
+@media screen and (min-width: 940px){
     .menu{
          background-color: #141414;
         height: 41pt;
         overflow:  hidden !important;
 
     }
+
     .menu img{
         width: 9%;
         margin-left: 3%;
     }
     .imgb{
-        background-image: url('/Maxime_Le_Corre_Developpeur_Web_2.jpg');
+        background-image: url('/Maxime_Le_Corre_Développeur_Web_2.jpg');
         margin-top: 0%;
         min-height: 600px; 
         background-attachment: fixed;
@@ -253,7 +256,8 @@ footer h1{
     }
     .fondnoir{
         background-color:#141414 ;
-        height: 900pt;
+        height: 100px;
+        
     }
     .max img {
         width:18%;
@@ -284,6 +288,7 @@ footer h1{
     }
     .portfolio{
         height: 50pt;
+        padding-top: 90%;
     }
     .portfolioimg{
         display: grid;
